@@ -1,0 +1,44 @@
+body {
+        background: #24353f;
+        font-family: 'Titillium Web', sans-serif;
+    }
+.shadow{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+ h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+ }
+ input {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+::placeholder{
+    color: rgb(192,192,192) !important;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 24px !important;
+}
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    color:#fff !important;
+}
+.text-success {
+    color: #28a745!important;
+}
+.navbar-brand{
+    font-size: 25px !important;
+    line-height: 30px !important;
+}
